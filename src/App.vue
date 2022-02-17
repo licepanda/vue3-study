@@ -11,7 +11,7 @@ ElNotification({
 
 <template>
 	<header>
-		<i-custom-logo alt="Vue logo" class="logo" width="125" height="125" />
+		<icon-custom-logo alt="Vue logo" class="logo" width="125" height="125" />
 		<div class="wrapper">
 			<HelloWorld msg="You did it!" />
 			<nav>

@@ -39,6 +39,7 @@ export default defineConfig({
 				}),
 				IconsResolver({
 					customCollections: ['custom'],
+					prefix: 'icon'
 				}),
 			],
 			dts: './types/components.d.ts',
@@ -47,7 +48,7 @@ export default defineConfig({
 			compiler: 'vue3',
 			customCollections: {
 				custom: FileSystemIconLoader('./src/assets/icons'),
-			},
+			}
 		}),
 		PkgConfig(),
 		OptimizationPersist(),
