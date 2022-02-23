@@ -70,7 +70,7 @@ const submitForm = (formEl: FormInstance | undefined) => {
 				message: '登陆成功',
 				type: 'success',
 			});
-			router.push({ path: '/Home' });
+			router.push({ path: '/dashboard' });
 		} else {
 			return false;
 		}
